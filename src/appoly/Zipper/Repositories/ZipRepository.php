@@ -1,6 +1,6 @@
 <?php
 
-namespace Chumper\Zipper\Repositories;
+namespace Appoly\Zipper\Repositories;
 
 use Exception;
 use ZipArchive;
