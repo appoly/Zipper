@@ -3,7 +3,7 @@
     "type": "library",
     "description": "This is a little neat helper for the ZipArchive methods with handy functions",
     "keywords": ["laravel", "ZIP", "Archive"],
-    "homepage": "http://github.com/Chumper/zipper",
+    "homepage": "http://github.com/appoly/zipper",
     "license": "Apache2",
     "authors": [
         {
@@ -11,26 +11,32 @@
             "email": "github@nilsplaschke.de",
             "homepage": "http://nilsplaschke.de",
             "role": "Developer"
+        },
+        {
+            "name": James Merrix",
+            "email": "james@appoly.co.uk",
+            "homepage": "https://www.appoly.co.uk",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=5.6.0",
+        "php": "^7.2.5",
         "ext-zip": "*",
-        "illuminate/support": "^5.0",
-        "illuminate/filesystem": "^5.0"
+        "illuminate/support": "^7.0",
+        "illuminate/filesystem": "^7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.7",
-        "mockery/mockery": "^0.9.4"
+        "phpunit/phpunit": "^8.5",
+        "mockery/mockery": "^1.3.1",
     },
     "autoload": {
         "psr-4": {
-            "Chumper\\Zipper\\": "src/Chumper/Zipper"
+            "appoly\\Zipper\\": "src/appoly/Zipper"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Chumper\\Zipper\\": "tests/"
+            "appoly\\Zipper\\": "tests/"
         }
     },
     "config": {
@@ -39,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Chumper\\Zipper\\ZipperServiceProvider"
+                "appoly\\Zipper\\ZipperServiceProvider"
             ],
             "aliases": {
-                "Zipper": "Chumper\\Zipper\\Zipper"
+                "Zipper": "appoly\\Zipper\\Zipper"
             }
         }
     },
