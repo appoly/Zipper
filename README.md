@@ -21,7 +21,7 @@ Zipper::make('public/test.zip')->add($files)->close();
 
 ## Another example
 ```php
-$zipper = new \Chumper\Zipper\Zipper;
+$zipper = new \Appoly\Zipper\Zipper;
 
 $zipper->make('test.zip')->folder('test')->add('composer.json');
 $zipper->zip('test.zip')->folder('test')->add('composer.json','test');
