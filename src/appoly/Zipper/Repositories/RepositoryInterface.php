@@ -1,6 +1,6 @@
 <?php
 
-namespace appoly\Zipper\Repositories;
+namespace Appoly\Zipper\Repositories;
 
 /**
  * RepositoryInterface that needs to be implemented by every Repository.

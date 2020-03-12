@@ -1,6 +1,6 @@
 <?php
 
-namespace appoly\Zipper\Facades;
+namespace Appoly\Zipper\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

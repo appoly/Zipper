@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "appoly\\Zipper\\": "src/appoly/Zipper"
+            "Appoly\\Zipper\\": "src/appoly/Zipper"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "appoly\\Zipper\\": "tests/"
+            "Appoly\\Zipper\\": "tests/"
         }
     },
     "config": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "appoly\\Zipper\\ZipperServiceProvider"
+                "Appoly\\Zipper\\ZipperServiceProvider"
             ],
             "aliases": {
-                "Zipper": "appoly\\Zipper\\Zipper"
+                "Zipper": "Appoly\\Zipper\\Zipper"
             }
         }
     },
