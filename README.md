@@ -6,7 +6,7 @@ This is a simple Wrapper around the ZipArchive methods with some handy functions
 
 ## Installation
 
-### Laravel 7.x
+### Laravel 7.x/8.x
 
 `$ composer require appoly/zipper`
 
